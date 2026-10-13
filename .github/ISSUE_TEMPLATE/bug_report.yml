@@ -1,0 +1,54 @@
+name: 설치 또는 조회 문제 / Installation or query issue
+description: 계정·결제·대화·원본 로그 없이 최소한의 오류 정보를 알려 주세요.
+title: "[Beta issue] "
+body:
+  - type: markdown
+    attributes:
+      value: "이 이슈는 공개됩니다. 이메일·계정 ID·토큰·쿠키·결제 내역·대화·백업·원본 로그를 첨부하지 마세요. This issue is public. Do not share private account, billing or conversation data."
+  - type: input
+    id: app_version
+    attributes:
+      label: 앱 버전 / App version
+      placeholder: 0.6.9 beta1
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: macOS 버전과 모델 계열 / macOS version and model family
+      placeholder: macOS 26, Mac mini M4
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 발생 단계 / Step
+      options:
+        - 다운로드 또는 첫 실행 / Download or first launch
+        - CLI 연결 또는 한도 조회 / CLI connection or quota query
+        - 웹 로그인 또는 날짜 조회 / Web sign-in or billing dates
+        - 초기화권 조회 / Reset-pass read
+        - 알림 / Notifications
+        - 토큰 집계 / Token scan
+        - 기타 / Other
+    validations:
+      required: true
+  - type: input
+    id: provider
+    attributes:
+      label: 해당 AI와 CLI 버전 / Provider and CLI version
+      description: 계정 식별자는 적지 마세요. Do not include account identifiers.
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 기대한 동작과 실제 동작 / Expected and actual behavior
+      description: 오류 문구와 최소 재현 단계를 적어 주세요. Include sanitized error wording and minimal steps.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 공개 내용 확인 / Public content check
+      options:
+        - label: 개인정보·원본 로그·백업을 포함하지 않았습니다. No private data, original logs or backups are included.
+          required: true
