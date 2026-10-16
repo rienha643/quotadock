@@ -2,7 +2,7 @@
 
 Codex·Claude·Grok의 잔여 한도와 구독 날짜, 마지막 초기화 일정을 함께 확인하는 Mac 앱입니다. 이번 베타는 무료이며 앱 결제·카드 등록을 요구하지 않습니다. 각 AI 서비스의 구독과 이용 조건은 별도입니다.
 
-- 앱: 0.6.9 / 빌드 44. 패키지 표기: beta1.
+- 앱: 0.6.10 / 빌드 45. 패키지 표기: beta1.
 - 대상: Apple Silicon, macOS 14 이상. 사용하는 공식 CLI의 설치·로그인이 필요합니다.
 - 서명: 로컬 임시 서명(ad-hoc). Developer ID 서명·Apple 공증은 없습니다.
 - 설치: ZIP을 풀고 앱을 Applications로 옮깁니다. [한국어 설치 안내](QUICK_START.md)를 먼저 읽어 주세요.
@@ -18,6 +18,6 @@ Codex·Claude·Grok의 잔여 한도와 구독 날짜, 마지막 초기화 일�
 
 QuotaDock brings AI quotas, renewal dates and saved reset schedules together on macOS. This beta is free: no QuotaDock payment or card registration. Provider subscriptions are separate.
 
-The app is version 0.6.9, build 44; this package is beta1. It targets Apple Silicon and macOS 14+, with official provider CLIs installed and signed in. It is ad-hoc signed, without Developer ID or Apple notarization. Internet-download first launch on another Mac still needs validation; security or management policy may prevent installation.
+The app is version 0.6.10, build 45; this package is beta1. It targets Apple Silicon and macOS 14+, with official provider CLIs installed and signed in. It is ad-hoc signed, without Developer ID or Apple notarization. Internet-download first launch on another Mac still needs validation; security or management policy may prevent installation.
 
 Read [Getting started](QUICK_START_EN.md), [Privacy](PRIVACY_EN.md) and [Feedback](FEEDBACK_EN.md). If you trust the verified source, use Apple's app-specific opening guidance. Do not disable system security globally or remove quarantine attributes. The package includes no personal settings, login sessions or usage records. This is an independent app, unaffiliated with the AI providers.

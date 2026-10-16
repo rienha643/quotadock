@@ -1,8 +1,10 @@
-# QuotaDock getting started 0.6.9
+# QuotaDock getting started 0.6.10
 
 QuotaDock brings AI quota limits, renewal dates and saved reset schedules together on macOS. This free beta targets Apple Silicon Macs running macOS 14 or later. [한국어 안내](QUICK_START.md)
 
 ## Install
+
+To update, quit QuotaDock and replace the app in Applications. Existing provider connections and local records are retained.
 
 Extract the ZIP and move `QuotaDock.app` to Applications. Quit any running older version before replacing it. This beta is ad-hoc signed; it has no Developer ID signature or Apple notarization. A downloaded copy may be blocked on another Mac.
 
@@ -43,3 +45,7 @@ Local token collection is optional in History → Tokens. Enabling it starts a b
 Export schedules as ICS or local history/settings as JSON. The backup is unencrypted and includes account identifiers, dates, prices and usage observations. Never post it publicly. It excludes login credentials, conversations, original token logs and CLI paths. Restoration keeps conflicting local notes and imports missing web evidence only when dates agree. Reconnect tools and grant notification permission separately on another Mac.
 
 [Privacy](PRIVACY_EN.md) · [Feedback](FEEDBACK_EN.md)
+
+## Fixed in 0.6.10
+
+Grok can omit the percentage field at zero usage after a weekly reset. QuotaDock now displays 100% remaining only for a verified unified billing response with a complete, valid current period. Explicit null and incomplete periods remain unknown.

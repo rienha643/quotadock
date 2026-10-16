@@ -6,7 +6,9 @@
 
 ## 시작하기
 
-[무료 베타 ZIP 다운로드](https://github.com/rienha643/quotadock/releases/download/v0.6.9-beta.1/QuotaDock-0.6.9-beta1-macOS-arm64.zip) · [SHA-256](https://github.com/rienha643/quotadock/releases/download/v0.6.9-beta.1/QuotaDock-0.6.9-beta1-macOS-arm64.sha256) · [릴리스 안내](https://github.com/rienha643/quotadock/releases/tag/v0.6.9-beta.1)
+**0.6.10 수정:** Grok 주간 초기화 후 사용률 0%가 응답에서 생략되면 잔여량이 미제공으로 보이던 문제를 고쳤습니다. 유효한 현재 기간이 확인되는 경우에만 잔여 100%로 표시합니다.
+
+[무료 베타 ZIP 다운로드](https://github.com/rienha643/quotadock/releases/download/v0.6.10-beta.1/QuotaDock-0.6.10-beta1-macOS-arm64.zip) · [SHA-256](https://github.com/rienha643/quotadock/releases/download/v0.6.10-beta.1/QuotaDock-0.6.10-beta1-macOS-arm64.sha256) · [릴리스 안내](https://github.com/rienha643/quotadock/releases/tag/v0.6.10-beta.1)
 
 SHA-256을 확인하고 ZIP을 푼 뒤 [시작 안내](docs/START_HERE.md)를 읽어 주세요. 보안 기능 전체를 끄는 설치 방법은 요구하지 않습니다.
 
@@ -28,9 +30,11 @@ Claude 초기화권과 구독 날짜는 공식 웹 창을 열어 확인하는 �
 
 ## English
 
+**Fixed in 0.6.10:** Grok can omit the percentage field at zero usage after a reset. QuotaDock now shows 100% remaining when a complete, valid current billing period confirms this case; incomplete responses remain unknown.
+
 QuotaDock brings remaining AI quotas, renewal dates and saved reset schedules together on macOS. The free beta targets Apple Silicon and macOS 14+, using your installed, signed-in official Codex CLI, Claude Code or Grok Build.
 
-[Download free beta](https://github.com/rienha643/quotadock/releases/download/v0.6.9-beta.1/QuotaDock-0.6.9-beta1-macOS-arm64.zip) · [SHA-256](https://github.com/rienha643/quotadock/releases/download/v0.6.9-beta.1/QuotaDock-0.6.9-beta1-macOS-arm64.sha256) · [Report an issue or share feedback](https://github.com/rienha643/quotadock/issues/new/choose)
+[Download free beta](https://github.com/rienha643/quotadock/releases/download/v0.6.10-beta.1/QuotaDock-0.6.10-beta1-macOS-arm64.zip) · [SHA-256](https://github.com/rienha643/quotadock/releases/download/v0.6.10-beta.1/QuotaDock-0.6.10-beta1-macOS-arm64.sha256) · [Report an issue or share feedback](https://github.com/rienha643/quotadock/issues/new/choose)
 
 This is an ad-hoc signed beta, without Developer ID or Apple notarization. Installation on another Mac may require an app-specific security exception or may be unavailable under managed policy. [Getting started](docs/QUICK_START_EN.md) · [Privacy](docs/PRIVACY_EN.md) · [Feedback](docs/FEEDBACK_EN.md)
 

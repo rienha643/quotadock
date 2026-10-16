@@ -1,6 +1,6 @@
 # QuotaDock beta privacy information
 
-This describes beta 0.6.9 as of October 13, 2026. QuotaDock has no own account registration, advertising, analytics SDK or usage-collection server. Provider sign-in and queries communicate with the official services, whose policies also apply. [한국어](PRIVACY.md)
+This describes beta 0.6.10 as of October 16, 2026. QuotaDock has no own account registration, advertising, analytics SDK or usage-collection server. Provider sign-in and queries communicate with the official services, whose policies also apply. [한국어](PRIVACY.md)
 
 ## Local storage
 
